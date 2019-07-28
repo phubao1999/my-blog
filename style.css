@@ -1,7 +1,7 @@
 /* 
 Theme Name: Thích Là Nhích
 Author: Phu Tuong Bao
-Author URL: http://localhost/bao/wp/
+Author URL: http://example
 Description: Just Fun Learnning WP
 Version: 1.0
 */
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .active {
-    color: #f783ae;
+    color: #f783ae!important;
 }
 
 input,
@@ -246,7 +246,6 @@ div#logo-img {
     display: -ms-flexbox;
     display: flex;
     height: 100%;
-    background: #111;
     padding: 0 32px;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -258,10 +257,6 @@ div#logo-img {
 
 div#logo-img img {
     height: 100px;
-}
-
-div#logo-img:hover {
-    background-color: black;
 }
 
 #menu-icon {
@@ -330,7 +325,7 @@ div#logo-img:hover {
 
 #slideout-menu ul li {
     padding: 8px;
-    margin: 4.5vh;
+    margin: 1vh;
 }
 
 #slideout-menu ul li a {
@@ -558,7 +553,7 @@ footer #right-footer #social-media-footer ul li {
     transition: .4s;
 }
 
-footer #right-footer #social-media-footer ul li:hover a .fa-youtube {
+footer #right-footer #social-media-footer ul li:hover a .fa-address-card {
     color: red;
 }
 
@@ -594,6 +589,8 @@ footer #right-footer #social-media-footer ul li a i {
     margin-top: 120px;
     margin-bottom: 20px;
     cursor: crosshair;
+    color: #2c3e50;
+    font-weight: 800;
 }
 
 .page-heading:hover {
@@ -647,6 +644,12 @@ footer #right-footer #social-media-footer ul li a i {
 #sidebar form {
     position: relative;
     width: 50%;
+}
+
+@media (max-width: 600px) {
+    #sidebar form {
+        width: 100%;
+    }
 }
 
 #sidebar #search-btn {
@@ -705,7 +708,7 @@ footer #right-footer #social-media-footer ul li a i {
 
 textarea,
 input {
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 16px;
 }
 
@@ -827,6 +830,57 @@ p.form-submit input[type=submit]:hover {
 ._404 ul li a {
     color: #130f40;
     font-weight: 700;
+}
+
+
+/* Contact Form */
+
+.wpcf7 input,
+.wpcf7 textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0 16px;
+    height: 42px;
+}
+
+.wpcf7 textarea {
+    height: 100px;
+}
+
+.wpcf7 input[type=submit] {
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #2c3e50;
+    background: #bdc3c7;
+    transition: all 0.3s ease;
+}
+
+.wpcf7 input[type=submit]:hover {
+    color: white;
+    background-color: #2c3e50;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.navbar-nav input[type="submit"] {
+    background: white url('./img/search-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    transition: all 0.4s ease;
+}
+
+.navbar-nav input[type="submit"]:hover {
+    background: red url('./img/search-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+}
+
+#navMenu input[type="search"] {
+    border-radius: 0px;
 }
 
 

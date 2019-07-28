@@ -25,6 +25,7 @@ while (have_posts()) {
         <?php } ?>
     </div>
 </div>
+
 <aside id="sidebar">
     <?php dynamic_sidebar('main_sidebar'); ?>
 </aside>

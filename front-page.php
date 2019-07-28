@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <div id="banner">
-    <h1>&lt;WPTemplate/&gt;</h1>
-    <h3>Learn WP from Freecodecamp</h3>
+    <h1>&lt;coderlife/&gt;</h1>
+    <h3>We Share What We Know</h3>
 </div>
-<main>
+<main class="container">
     <a href="<?php echo site_url('/blog') ?>">
         <h2 class="section-heading">All blogs</h2>
     </a>
