@@ -38,7 +38,7 @@
         </section>
 
     <?php } else { ?>
-        <div class="no-results">
+        <div class="no-results titleTag container">
             <h2 class="text-danger">Could't Find Anything:( Did You Just Misstype Something?</h2>
             <h3 class="text-success">Don't Worry</h3>
             <h3 class="text-success">Check Out The Following Links:</h3>
@@ -54,16 +54,17 @@
         <?php echo paginate_links(); ?>
     </div>
     <!-- ===================================== -->
-    <h2 class="section-heading">Source Code</h2>
-    <section id="section-source">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam veniam deleniti illum nisi
-            facere doloribus dolor incidunt quia omnis? Ipsum animi, aliquid nihil sed totam assumenda accusamus
-            adipisci quas.
-        </p>
-        <a href="https://github.com/phubao1999" class="btn-readmore">GitHub ProFile</a>
-    </section>
-
+    <div class="container">
+        <h2 class="section-heading">Source Code</h2>
+        <section id="section-source">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam veniam deleniti illum nisi
+                facere doloribus dolor incidunt quia omnis? Ipsum animi, aliquid nihil sed totam assumenda accusamus
+                adipisci quas.
+            </p>
+            <a href="https://github.com/phubao1999" class="btn-readmore">GitHub ProFile</a>
+        </section>
+    </div>
 
     <?php get_footer(); ?>
 

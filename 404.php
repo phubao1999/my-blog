@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <div class="container _404">
+    <div class="container _404 titleTag">
         <h2 class="page-heading">Oh! What??? 404</h2>
         <img src="http://source.unsplash.com/640x480/?cats">
         <h3 class="text-capitalize">sorry friend, i think you're lost. please try the links down bellow</h3>
